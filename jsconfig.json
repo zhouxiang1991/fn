@@ -1,0 +1,17 @@
+{
+  "include": ["packages/**/*", "packages/config/**/*", "test/**/*"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "#packages/*": ["./packages/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
