@@ -1,8 +1,22 @@
 /**
- * 原始数据类型
- * @constant {object}
+ * @file
+ * @author zhouxiang <zhouxiang219@163.com>
+ * -----
+ * Filename: primitiveType.js
+ * Project: fn
+ * Created By: zhouxiang <zhouxiang219@163.com>
+ * File Created: 2022-01-25 11:22:18
+ * Modified By: zhouxiang <zhouxiang219@163.com>
+ * Last Modified: 2022-01-29 18:08:56
+ * -----
  */
-export const PRIMITIVE_TYPE = {
+
+/**
+ * 原始数据类型字符枚举值
+ * @constant {object}
+ * @enum {string}
+ */
+const PRIMITIVE_TYPE = {
   OBJECT   : 'object',
   FUNCTION : 'function',
   BOOLEAN  : 'boolean',
@@ -13,4 +27,8 @@ export const PRIMITIVE_TYPE = {
   DATE     : 'date',
   REGEXP   : 'regexp',
   ARRAY    : 'array',
+}
+
+export {
+  PRIMITIVE_TYPE,
 }
