@@ -1,3 +1,16 @@
+/**
+ * @file
+ * @author zhouxiang <zhouxiang219@163.com>
+ * -----
+ * Filename: method.js
+ * Project: fn
+ * Created By: zhouxiang <zhouxiang219@163.com>
+ * File Created: 2022-01-26 22:39:21
+ * Modified By: zhouxiang <zhouxiang219@163.com>
+ * Last Modified: 2022-01-30 11:06:04
+ * -----
+ */
+
 import invoke from '#packages//object/invoke'
 
 /**

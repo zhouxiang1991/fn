@@ -1,3 +1,16 @@
+/**
+ * @file
+ * @author zhouxiang <zhouxiang219@163.com>
+ * -----
+ * Filename: sne.js
+ * Project: fn
+ * Created By: zhouxiang <zhouxiang219@163.com>
+ * File Created: 2022-01-25 15:04:21
+ * Modified By: zhouxiang <zhouxiang219@163.com>
+ * Last Modified: 2022-01-30 11:05:35
+ * -----
+ */
+
 import negate from '../function/negate'
 import seq from './seq'
 

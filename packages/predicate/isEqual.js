@@ -1,3 +1,16 @@
+/**
+ * @file
+ * @author zhouxiang <zhouxiang219@163.com>
+ * -----
+ * Filename: isEqual.js
+ * Project: fn
+ * Created By: zhouxiang <zhouxiang219@163.com>
+ * File Created: 2022-01-26 23:55:24
+ * Modified By: zhouxiang <zhouxiang219@163.com>
+ * Last Modified: 2022-01-30 11:04:47
+ * -----
+ */
+
 import curry, { _ } from '#packages/function/curry'
 import keys from '#packages/object/keys'
 import isArray from '#packages/predicate/isArray'

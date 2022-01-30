@@ -1,3 +1,16 @@
+/**
+ * @file
+ * @author zhouxiang <zhouxiang219@163.com>
+ * -----
+ * Filename: curry.js
+ * Project: fn
+ * Created By: zhouxiang <zhouxiang219@163.com>
+ * File Created: 2022-01-25 15:42:21
+ * Modified By: zhouxiang <zhouxiang219@163.com>
+ * Last Modified: 2022-01-30 11:02:53
+ * -----
+ */
+
 import times from '#packages/function/times'
 import isDef from '#packages/predicate/isDef'
 

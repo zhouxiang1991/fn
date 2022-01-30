@@ -1,3 +1,16 @@
+/**
+ * @file
+ * @author zhouxiang <zhouxiang219@163.com>
+ * -----
+ * Filename: once.js
+ * Project: fn
+ * Created By: zhouxiang <zhouxiang219@163.com>
+ * File Created: 2022-01-28 14:03:07
+ * Modified By: zhouxiang <zhouxiang219@163.com>
+ * Last Modified: 2022-01-30 11:03:18
+ * -----
+ */
+
 import before from '#packages/function/before'
 
 /**

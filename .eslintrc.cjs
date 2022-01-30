@@ -1,3 +1,16 @@
+/**
+ * @file
+ * @author zhouxiang <zhouxiang219@163.com>
+ * -----
+ * Filename: .eslintrc.cjs
+ * Project: fn
+ * Created By: zhouxiang <zhouxiang219@163.com>
+ * File Created: 2022-01-23 17:20:21
+ * Modified By: zhouxiang <zhouxiang219@163.com>
+ * Last Modified: 2022-01-30 11:00:06
+ * -----
+ */
+
 /* eslint-disable no-magic-numbers */
 const path = require('path')
 const isProd = process.env.NODE_ENV === 'production'

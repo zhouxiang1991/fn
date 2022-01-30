@@ -2,12 +2,12 @@
  * @file
  * @author zhouxiang <zhouxiang219@163.com>
  * -----
- * Filename: ary.js
+ * Filename: ary.ts
  * Project: fn
  * Created By: zhouxiang <zhouxiang219@163.com>
  * File Created: 2022-01-27 17:49:17
  * Modified By: zhouxiang <zhouxiang219@163.com>
- * Last Modified: 2022-01-29 18:08:46
+ * Last Modified: 2022-01-30 10:02:34
  * -----
  */
 

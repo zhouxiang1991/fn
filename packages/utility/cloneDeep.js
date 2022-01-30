@@ -1,3 +1,16 @@
+/**
+ * @file
+ * @author zhouxiang <zhouxiang219@163.com>
+ * -----
+ * Filename: cloneDeep.js
+ * Project: fn
+ * Created By: zhouxiang <zhouxiang219@163.com>
+ * File Created: 2022-01-27 11:02:30
+ * Modified By: zhouxiang <zhouxiang219@163.com>
+ * Last Modified: 2022-01-30 11:05:47
+ * -----
+ */
+
 import { PRIMITIVE_TYPE } from '#packages/config'
 import keys from '#packages/object/keys'
 import isUndef from '#packages/predicate/isUndef'

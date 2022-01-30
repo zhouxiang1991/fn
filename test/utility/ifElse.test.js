@@ -1,3 +1,16 @@
+/**
+ * @file
+ * @author zhouxiang <zhouxiang219@163.com>
+ * -----
+ * Filename: ifElse.test.js
+ * Project: fn
+ * Created By: zhouxiang <zhouxiang219@163.com>
+ * File Created: 2022-01-27 17:30:30
+ * Modified By: zhouxiang <zhouxiang219@163.com>
+ * Last Modified: 2022-01-30 11:08:18
+ * -----
+ */
+
 import assert from 'assert'
 import ifElse from '#packages/utility/ifElse'
 import isNumber from '#packages/predicate/isNumber'
