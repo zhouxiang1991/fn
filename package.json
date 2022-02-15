@@ -1,6 +1,6 @@
 {
   "name": "fn",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "lib/fn.umd.js",
   "module": "lib/fn.esm.js",
   "author": "zhouxiang219 <zhouxiang219@163.com>",
