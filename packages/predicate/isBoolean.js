@@ -12,7 +12,6 @@
  */
 
 import { PRIMITIVE_TYPE } from '../config/index'
-import curry, { _ } from '#packages/function/curry'
 import isType from '#packages/_internal/isType'
 
 /**
@@ -20,6 +19,8 @@ import isType from '#packages/_internal/isType'
  * @param {*} value 任意值
  * @returns {boolean}
  */
-const isBoolean = curry(isType, 2, _, PRIMITIVE_TYPE.DATE)
+function isBoolean (value) {
+  return isType(value, PRIMITIVE_TYPE.DATE)
+}
 
 export default isBoolean

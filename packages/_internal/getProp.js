@@ -21,7 +21,7 @@ import identity from '#packages/utility/identity'
  * @param {(string|string[])} path 路径
  * @param {*}
  */
-function prop (object, path) {
+function getProp (object, path) {
   const _path = isArray(path) ? path.join('.') : path
   const paths = _path
     .replace(/\[([^[]]*)\]/g, '.$1.')
@@ -31,4 +31,4 @@ function prop (object, path) {
   return paths.reduce((prev, cur, index) => prev && prev[cur], object)
 }
 
-export default prop
+export default getProp

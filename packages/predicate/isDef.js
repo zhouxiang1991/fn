@@ -11,7 +11,6 @@
  * -----
  */
 
-import negate from '#packages/function/negate'
 import isUndef from '#packages/predicate/isUndef'
 
 /**
@@ -20,6 +19,8 @@ import isUndef from '#packages/predicate/isUndef'
  * @param {*} other 其他值
  * @returns {boolean}
  */
-const isDef = negate(isUndef)
+function isDef (value) {
+  return !isUndef(value)
+}
 
 export default isDef

@@ -15,6 +15,8 @@
  * 返回首个提供的参数
  * @param {*} value 任意值
  */
-export default function identity (value) {
+function identity (value) {
   return value
 }
+
+export default identity

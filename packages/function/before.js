@@ -34,4 +34,4 @@ function before (n, fn) {
   }
 }
 
-export default curry(before, 2)
+export default before

@@ -25,7 +25,7 @@ module.exports = {
   globals      : {},
   extends      : [],
   parserOptions: {
-    ecmaVersion : 2021,
+    ecmaVersion : 2020,
     sourceType  : 'module',
     ecmaFeatures: { impliedStrict: true },
   },
@@ -288,6 +288,15 @@ module.exports = {
           'throw',
           'try',
         ],
+      },
+
+      /**
+       * 多行导出之间不允许出现空行
+       */
+      {
+        blankLine: 'never',
+        prev     : ['export'],
+        next     : ['export'],
       },
 
       /**

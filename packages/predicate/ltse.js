@@ -11,7 +11,6 @@
  * -----
  */
 
-import overEvery from '../function/overEvery'
 import seq from './seq'
 import lt from './lt'
 
@@ -21,6 +20,8 @@ import lt from './lt'
  * @param {*} other 其他值
  * @returns {boolean}
  */
-const ltse = overEvery([seq, lt])
+function ltse (value, other) {
+  return seq(value, other) || lt(value, other)
+}
 
 export default ltse

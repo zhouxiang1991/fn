@@ -15,4 +15,6 @@
  * 返回undefined
  * @returns {undefined}
  */
-export default function noop () {} // eslint-disable-line no-empty-function
+function noop () {} // eslint-disable-line no-empty-function
+
+export default noop

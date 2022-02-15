@@ -21,7 +21,7 @@ describe('ary', () => {
     assert.strictEqual(fn(1, 2), 3)
   })
   it('应该返回4', () => {
-    const fn = ary((a, b = 1) => a + b)(2)
+    const fn = ary((a, b = 1) => a + b, 2)
 
     assert.strictEqual(fn(2, 2), 4)
   })

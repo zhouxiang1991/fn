@@ -16,6 +16,8 @@
  * @param {*} value 任意值
  * @returns {boolean}
  */
-const { isNaN } = Number
+function isNaN (value) {
+  return Number.isNaN(value)
+}
 
 export default isNaN

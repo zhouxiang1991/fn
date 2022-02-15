@@ -11,7 +11,6 @@
  * -----
  */
 
-import negate from '../function/negate'
 import seq from './seq'
 
 /**
@@ -20,6 +19,8 @@ import seq from './seq'
  * @param {*} other 其他值
  * @returns {boolean}
  */
-const sne = negate(seq)
+function sne (value, other) {
+  return !seq(value, other)
+}
 
 export default sne

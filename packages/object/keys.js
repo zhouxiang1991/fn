@@ -13,9 +13,11 @@
 
 /**
  * 返回object可枚举值列表
- * @param {object} object 对象
+ * @param {object} object={} 对象
  * @returns {string[]}
  */
-const { keys } = Object
+function keys (object = {}) {
+  return Object.keys(object)
+}
 
 export default keys

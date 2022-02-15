@@ -11,7 +11,6 @@
  * -----
  */
 
-import negate from '../function/negate'
 import eq from './eq'
 
 /**
@@ -20,6 +19,8 @@ import eq from './eq'
  * @param {*} other 其他值
  * @returns {boolean}
  */
-const ne = negate(eq)
+function ne (value, other) {
+  return !eq(value, other)
+}
 
 export default ne

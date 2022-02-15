@@ -20,6 +20,8 @@ import before from '#packages/function/before'
  * @param {function} func 限制执行的函数
  * @returns {function}
  */
-const once = before(2)
+function once (func) {
+  return before(2, func)
+}
 
 export default once

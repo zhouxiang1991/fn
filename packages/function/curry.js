@@ -15,7 +15,6 @@ import times from '#packages/function/times'
 import isDef from '#packages/predicate/isDef'
 
 export const _ = { placeholder: true }
-
 export default function curry (fn, arity = fn.length, ...initArgs) {
   function _curry (savedArgs, nextIndex, jumped) {
     return function (...args) {

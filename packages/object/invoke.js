@@ -11,7 +11,7 @@
  * -----
  */
 
-import propertyOf from '#packages/utility/propertyOf'
+import getProp from '#packages/_internal/getProp'
 
 /**
  * 调用object对象path上的方法
@@ -20,7 +20,7 @@ import propertyOf from '#packages/utility/propertyOf'
  * @param {...*} args 调用对象属性方法时需要传入的参数
  */
 function invoke (object = {}, path, ...args) {
-  const func = propertyOf(object, path)
+  const func = getProp(object, path)
 
   return func(...args)
 }

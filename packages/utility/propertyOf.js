@@ -12,15 +12,16 @@
  */
 
 import curry from '#packages/function/curry'
-import prop from '#packages/_internal/prop'
+import getProp from '#packages/_internal/getProp'
 
 /**
  * 获取对象的某个属性
  * @private
  * @param {object} object 对象
- * @param {(string|string[])} path 路径
- * @param {*}
+ * @param {function}
  */
-const propertyOf = curry(prop, 2)
+function propertyOf (object) {
+  return curry(getProp, 2, object)
+}
 
 export default propertyOf

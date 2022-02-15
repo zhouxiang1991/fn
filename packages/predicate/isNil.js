@@ -10,8 +10,6 @@
  * Last Modified: 2022-01-30 11:04:58
  * -----
  */
-
-import overEvery from '../function/overEvery'
 import isNull from './isNull'
 import isUndef from './isUndef'
 
@@ -20,6 +18,8 @@ import isUndef from './isUndef'
  * @param {*} value 任意值
  * @returns {boolean}
  */
-const isNil = overEvery([isNull, isUndef])
+function isNil (value) {
+  return isNull(value) || isUndef(value)
+}
 
 export default isNil

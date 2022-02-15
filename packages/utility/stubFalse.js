@@ -11,12 +11,12 @@
  * -----
  */
 
-import constant from '#packages/utility/constant'
-
 /**
  * 返回false
  * @returns {boolean}
  */
-const stubFalse = constant(false)
+function stubFalse () {
+  return false
+}
 
 export default stubFalse

@@ -15,6 +15,8 @@
  * 返回空对象
  * @returns {object}
  */
-const stuObject = () => ({})
+function stubObject () {
+  return {}
+}
 
-export default stuObject
+export default stubObject

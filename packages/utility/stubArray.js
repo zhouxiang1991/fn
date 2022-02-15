@@ -10,11 +10,12 @@
  * Last Modified: 2022-01-30 11:06:27
  * -----
  */
-
 /**
  * 返回空数组
  * @returns {array}
  */
-const stuArray = () => []
+function stuArray () {
+  return []
+}
 
 export default stuArray

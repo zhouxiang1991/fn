@@ -11,7 +11,6 @@
  * -----
  */
 
-import overEvery from '../function/overEvery'
 import eq from './eq'
 import gt from './gt'
 
@@ -21,6 +20,8 @@ import gt from './gt'
  * @param {*} other 其他值
  * @returns {boolean}
  */
-const gte = overEvery([eq, gt])
+const gte = function (value, other) {
+  return eq(value, other) || gt(value, other)
+}
 
 export default gte

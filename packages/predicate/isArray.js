@@ -16,6 +16,8 @@
  * @param {*} value 任意值
  * @returns {boolean}
  */
-const { isArray } = Array
+function isArray (value) {
+  return Array.isArray(value)
+}
 
 export default isArray

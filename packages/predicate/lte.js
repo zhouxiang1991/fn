@@ -11,7 +11,6 @@
  * -----
  */
 
-import overEvery from '../function/overEvery'
 import eq from './eq'
 import lt from './lt'
 
@@ -21,6 +20,8 @@ import lt from './lt'
  * @param {*} other 其他值
  * @returns {boolean}
  */
-const lte = overEvery([eq, lt])
+function lte (value, other) {
+  return eq(value, other) || lt(value, other)
+}
 
 export default lte

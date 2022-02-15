@@ -11,8 +11,6 @@
  * -----
  */
 
-import curry from '#packages/function/curry'
-
 /**
  * 创建一个调用fn的函数。
  * 调用fn时最多接受n个参数，忽略多出的参数。
@@ -26,4 +24,4 @@ function ary (fn, n = fn.length) {
   }
 }
 
-export default curry(ary, 2)
+export default ary
